@@ -1,0 +1,87 @@
+body{
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  font-family: "Buda", serif;
+
+}
+.chokokutai-regular {
+  font-family: "Chokokutai", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.buda-light {
+  font-family: "Buda", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.macondo-regular {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#container{
+    border: 1px rgba(102, 0, 255, 0) solid;
+    display: block;
+    padding: 10px;
+   width: min(600px,90%);
+    height: auto;
+    text-align: center;
+    background: rgba(59, 59, 59, 0.295);
+    backdrop-filter: blur(8px);
+    border-radius:50px;
+}
+#clock{
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 5px;
+    color: ghostwhite;
+    text-shadow: 5px 2px 2px black;
+
+}
+#container h1{
+    color: rgb(255, 178, 157);
+   font-weight: bold;
+   font-size: 3rem;
+   text-shadow: 2px 2px 2px black;
+   
+}
+#options{
+    margin: 5px;
+}
+#options button{
+    background: rgb(207, 151, 218);
+    padding: 12px 18px;
+    margin: 5px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 50px;
+     border: none;
+   font-family: "Macondo", cursive;
+
+
+    
+}
+#options button:hover{
+    color: rgb(207, 151, 218);
+    background-color: rgb(20, 21, 47);
+    animation: button 1s ease-in-out infinite;
+   
+}
+#laps{
+    font-size: large;
+    color: white;
+    list-style: none;
+}
+@keyframes button{
+    50%{transform: translateY(-5px);}
+}
+
