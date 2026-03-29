@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 const clock=document.getElementById("clock");
 const laps = document.getElementById("laps");
 let timer=null;
@@ -51,3 +52,4 @@ function lapTimer() {
     li.textContent = `Lap ${lapCount} - ${clock.textContent}`;
     laps.appendChild(li);
 }
+});
